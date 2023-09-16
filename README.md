@@ -1,7 +1,7 @@
 # gptclass
 
 ## classDiagram
-```plantuml
+```mermaid
   class MembershipSystem {
     + signUp()
     + viewProfile()
