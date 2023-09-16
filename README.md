@@ -39,6 +39,4 @@
   MembershipSystem "1" --o "1" Membership : manages
   User --|> Membership : has
   Admin --|> Membership : has
-
 ```
-
