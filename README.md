@@ -2,7 +2,6 @@
 
 ## Class Diagram
 ```mermaid
-classDiagram
   class MembershipSystem {
     + signUp()
     + viewProfile()
