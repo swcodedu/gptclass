@@ -1,7 +1,7 @@
 # gpt HOMEWORD
 
 ## classDiagram
-@startuml
+```mermaid
 class User {
   + email: string
   + register()
@@ -63,4 +63,4 @@ Master --|> User : Manages
 Organization --|> Group : Contains
 Organization --|> Space : Manages
 Group --|> User : Contains
-@enduml
+```
