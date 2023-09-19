@@ -1,6 +1,7 @@
 # gpt HOMEWORD
 
 ## classDiagram
+```mermaid
   class User {
     + email: string
     + register()
@@ -62,3 +63,4 @@
   Organization --|> Group : Contains
   Organization --|> Space : Manages
   Group --|> User : Contains
+```
